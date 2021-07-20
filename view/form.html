@@ -1,0 +1,10 @@
+<form method="POST" action="?acao=Form&metodo=salvar">
+  <input type="hidden" name="id" value="{id}" />
+  <label>prato:</label>
+  <input type="text" name="prato" value="{prato}" required /><br />
+  <label>ingredientes:</label>
+  <textarea name="ingredientes" required>{ingredientes}</textarea><br />
+  <label>preço</label>
+  <input type="number" name="preco" value="{preco}" step="0.01" required /><br />
+  <button type="submit">Salvar</button>
+</form>
